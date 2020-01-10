@@ -10,15 +10,13 @@ sudo apt-get install python
 
 sudo apt-get update
 
-python shell.py
-```
+python shell.py```
 
 **If you want the user to login to a resticted shell, add these lines to the end of their .bashrc file:**
 
 ```nano /home/dave/.bashrc```
 
-```
-trap '' 1
+```trap '' 1
 trap '' 2
 python shell.py```
 
