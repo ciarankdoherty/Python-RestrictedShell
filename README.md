@@ -4,7 +4,8 @@
 
 # **Linux Installation:**
 
-```git clone https://github.com/60x/Python-RestrictedShell && cd Python-RestrictedShell
+```
+git clone https://github.com/60x/Python-RestrictedShell && cd Python-RestrictedShell
 
 sudo apt-get install python
 
