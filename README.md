@@ -22,4 +22,5 @@ trap '' 1
 trap '' 2
 python shell.py```
 
-`What this does is stops the user from exiting the restricted shell using hotkeys such as ctrl+c, ctrl+x, etc.`
+**This uses a signal handler stops the user from exiting the restricted shell**
+**using hotkeys such as ctrl+c, ctrl+x, etc.**
