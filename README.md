@@ -13,14 +13,13 @@ sudo apt-get update
 python shell.py
 ```
 
-**If you want the user to login to a resticted shell, add these lines to the end of their .bashrc file:
+**If you want the user to login to a resticted shell, add these lines to the end of their .bashrc file:**
 
-```nano /home/dave/.bashrc
-```
+```nano /home/dave/.bashrc```
 
 ```
 trap '' 1
 trap '' 2
 python shell.py```
 
-`What this does is stops the user from exiting the restricted shell using hotkeys such as ctrl+c, ctrl+x, etc.
+`What this does is stops the user from exiting the restricted shell using hotkeys such as ctrl+c, ctrl+x, etc.`
