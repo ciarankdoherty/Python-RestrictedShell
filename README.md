@@ -17,7 +17,7 @@ python shell.py
 **Next, we need to ensure the restricted shell is applied to the user when they login. add these lines to the end of their .bashrc file:**
 
 ```
-nano /home/dave/.bashrc
+nano /home/"username"/.bashrc
 ```
 
 ```
@@ -26,5 +26,5 @@ trap '' 2
 python shell.py
 ```
 
-**This uses signal handlers stops the user from exiting the restricted shell,**
-**using hotkeys such as ctrl+c, ctrl+x, etc.**
+**This uses signal handlers to stop the user from exiting the restricted shell environment,**
+**using Control keys.**
